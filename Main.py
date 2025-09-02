@@ -4,9 +4,14 @@ class MainMenu:
         print("Select your option:")
         print("===========================================")
         print("1. Word of the day")
+        print("Write the number to select > Press Enter:")
+        select = input()
+        if select == "1":
+            selected = WordOfTheDay()
 
 class WordOfTheDay:
-    print("The word of the day is:")
+    def __init__(self):
+        print("The word of the day is:")
 
 
 
