@@ -7,7 +7,9 @@ class MainMenu:
         print("Write the number to select > Press Enter:")
         select = input()
         if select == "1":
+            print(f"You have selected: {select}")
             selected = WordOfTheDay()
+
 
 class WordOfTheDay:
     def __init__(self):
