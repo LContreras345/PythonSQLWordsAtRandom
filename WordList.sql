@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS WordList (
 INSERT INTO WordList (WordID, WordName, WordType, WordDefinition) VALUES (1, 'Daisy', 'Noun', 'A small European grassland plant which has flowers with a yellow disc and white rays.');
 INSERT INTO WordList (WordID, WordName, WordType, WordDefinition) VALUES (2, 'Run', 'Verb', 'To move at a speed faster than a walk.');
 INSERT INTO WordList (WordID, WordName, WordType, WordDefinition) VALUES (3, 'Blue', 'Adjective', 'Of a color intermediate between green and violet, as of the sky or sea on a sunny day.');
+
+INSERT INTO WordList (WordName, WordType, WordDefinition) VALUES ('Keyboard', 'Noun', '1. A device used to connect to a computer to allow for input of text or numbers. 2. A musical instrument, digital or acoustic.');
